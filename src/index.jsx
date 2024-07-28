@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import SectionHero from './Components/SectionHero'
 import './index.css'
+import Header from './Components/Header/Header'
+import Main from './Components/Main/Main'
+import Footer from './Components/Footer/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SectionHero />
+    <Header></Header>
+    <Main></Main>
+    <Footer></Footer>
   </React.StrictMode>,
 )
