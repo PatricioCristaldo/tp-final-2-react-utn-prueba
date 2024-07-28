@@ -10,7 +10,7 @@ export default function Main() {
                     <h2>Hola! Yo soy </h2><span>PATRICIO </span><span>CRISTALDO</span>
                     <p>Me dedico a hacer trabajos de desarrollo web, si te interesa lo que hago, no dudes en hacer click
                         en el botón de abajo.</p>
-                    <a href="#" class="cta-button">CUENTAME SOBRE TU PROYECTO</a>
+                    <a href="mailto:patricio_cristaldo@outlook.com?subject=Consulta&body=Hola, me gustaría contarte acerca de mi proyecto..." class="cta-button">CUENTAME SOBRE TU PROYECTO</a>
                 </div>
                 <div class="hero-image"> 
                     <img src="public/images/Ejemplo1.png" alt="Patricio Cristaldo"></img>

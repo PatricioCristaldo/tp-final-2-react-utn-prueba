@@ -16,7 +16,7 @@ function Header() {
                     <li><a href="#about">Acerca de mi</a></li>
                 </ul>
             </nav>
-            <a href="#" class="quote-button">Cotización</a>
+            <a href="mailto:patricio_cristaldo@outlook.com?subject=Cotización&body=Hola, me gustaría pedir presupuesto para..." class="quote-button">Cotización</a>
         </div>
     </header>
   )
