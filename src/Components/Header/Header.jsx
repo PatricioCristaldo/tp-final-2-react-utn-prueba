@@ -10,10 +10,10 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Principio</a></li>
-                    <li><a href="#">Projectos</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Acerca de mi</a></li>
+                    <li><a href="/">Principio</a></li>
+                    <li><a href="https://github.com/PatricioCristaldo?tab=repositories">Projectos</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#about">Acerca de mi</a></li>
                 </ul>
             </nav>
             <a href="#" class="quote-button">Cotización</a>

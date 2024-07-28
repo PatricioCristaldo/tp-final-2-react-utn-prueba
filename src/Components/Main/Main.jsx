@@ -4,7 +4,7 @@ import './Main.css'
 export default function Main() {
   return (
     <main>
-        <section class="hero">
+        <section class="hero"  id='hero'>
             <div class="container">
                 <div class="hero-text">
                     <h2>Hola! Yo soy </h2><span>PATRICIO </span><span>CRISTALDO</span>
@@ -12,13 +12,12 @@ export default function Main() {
                         en el botón de abajo.</p>
                     <a href="#" class="cta-button">CUENTAME SOBRE TU PROYECTO</a>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image"> 
                     <img src="public/images/Ejemplo1.png" alt="Patricio Cristaldo"></img>
                 </div>
             </div>
-        </section>
-
-        <section class="clients">
+        </section >
+        <section class="clients" id='projects'>
             <ul>
                 <li>UTN</li>
                 <li>RUNDO</li>
@@ -27,7 +26,7 @@ export default function Main() {
             </ul>
         </section>
 
-        <section class="services-section">
+        <section class="services-section" id='services'>
             <h2>Mis grandes </h2><span>servicios</span>
             <div class="container">
                 <div class="services-cards">
@@ -54,7 +53,7 @@ export default function Main() {
             </div>
         </section>
 
-        <section class="about">
+        <section class="about"  id='about'>
             <div class="container">
                 <div class="about-image">
                     <img src="public/images/Ejemplo2.png" alt="Patricio Cristaldo"></img>
@@ -64,7 +63,7 @@ export default function Main() {
                     <p>Soy desarrollador web full stack, actualmente me encuentro realizando una diplomatura en
                         desarrollo web con la Universidad Tecnológica Nacional para potenciar mí conocimiento y
                         habilidades.</p>
-                    <a href="#" class="cta-button">MÁS INFORMACIÓN</a>
+                    <a href="/about" class="cta-button">MÁS INFORMACIÓN</a>
                 </div>
             </div>
         </section>
