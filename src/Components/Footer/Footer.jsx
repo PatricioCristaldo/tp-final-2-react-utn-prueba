@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 
 function Footer() {
+    const [email, setEmail] = useState('');
+
+    const handleEmailChange = (e) => {
+      setEmail(e.target.value);
+    };
+  
+    const handleFormSubmit = (e) => {
+      e.preventDefault();
+
+    };
+  
     return (
         <footer>
             <h2>P. CRISTALDO</h2>
@@ -14,8 +25,17 @@ function Footer() {
                 <a href="https://api.whatsapp.com/send/?phone=5491173686874&text&type=phone_number&app_absent=0"><i className="bi bi-whatsapp"></i></a>
             </div>
             <h5>SUSCRIBETE</h5>
-            <input type="email" id="email" email="email" placeholder="Escribe tu email" />
-            <button>ENVIAR</button>
+            <form onSubmit={handleFormSubmit}>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={handleEmailChange}
+            placeholder="Escribe tu email"
+            required
+          />
+          <button type="submit" style={{cursor:"pointer" }}>ENVIAR</button>
+        </form>
             <p>&copy; 2024 All rights reserved. <strong href="#">P. CRISTALDO</strong></p>
         </footer>
     );
